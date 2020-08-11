@@ -12,7 +12,7 @@ class Alien(Sprite):
         self.transparent_color = pygame.Color(0, 0, 0)
 
         # Load the alien image and set its rect attribute.
-        self.image = pygame.image.load('images/alien_ship2.png')
+        self.image = pygame.image.load('images/alien_ship4.png')
         self.image.set_colorkey(self.transparent_color)
         self.image = pygame.transform.scale(self.image, (50, 50))
         self.rect = self.image.get_rect()
